@@ -1,0 +1,19 @@
+﻿@model CustomerFeedbackPortal.Models.Feedback
+
+<h2>Feedback Submitted Successfully</h2>
+
+<div class="card p-3">
+    <h4>Name: @Model.Name</h4>
+    <h4>Email: @Model.Email</h4>
+    <h4>Rating: @Model.Rating</h4>
+    <h4>Comments:</h4>
+    <p>@Model.Comments</p>
+</div>
+
+<br />
+
+<a asp-controller="Feedback"
+       asp-action="Index"
+       class="btn btn-primary">
+    Submit Another Feedback
+</a>

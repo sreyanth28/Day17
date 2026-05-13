@@ -1,0 +1,9 @@
+.custom-input {
+    border: 2px solid #007bff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+star-rating {
+    font-size: 20px;
+}

@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+}
+
+.form-control {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.text-danger {
+    color: red;
+}
+
+.alert-success {
+    color: green;
+    font-weight: bold;
+}
